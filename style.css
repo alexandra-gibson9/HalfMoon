@@ -1,0 +1,200 @@
+body{
+    padding:0;
+    margin:0;
+    background-color:#F1D6C3;
+}
+
+/* Global */
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+    display:flex;
+}
+
+header ul{
+    margin:0;
+    padding:0;
+}
+
+header{
+    background:#4C8064;
+    color:#FF8668;
+    font-size:20ßpx;
+    padding-top:15px;
+    min-height:70px;
+    border-bottom:#FF8668 3px solid;
+}
+
+.button1{
+    height:38px;
+    background:#4C8064;
+    border:0;
+    padding-left:20px;
+    padding-right:20px;
+    font-family: 'Fraunces', serif;
+    font-weight:600;
+    
+
+}
+
+body p{
+    font-family:'Fraunces', serif;
+    color:#433022;
+    }
+
+
+
+/* Header */
+header a{
+    color:#433022;
+    text-decoration:none;
+    font-size:18px;
+}
+
+header a:hover{
+    color:#FF8668;
+    font-style:italic;
+}
+
+header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brand{
+    font-family:'Shrikhand', cursive;
+    float:left;
+}
+
+header #brand h1{
+    margin:0;
+}
+
+header nav{
+    float:right;
+    margin:10px;
+}
+
+
+
+
+
+/* Showcase */
+
+#showcase{
+    min-height:600px;
+    text-align:left;
+    background:url('../images/studioimage.jpeg');
+}
+
+#showcase h1{
+    text-align:left;
+    color:#210D00;
+    font-family:'Fraunces', serif;
+
+}
+
+#showcase img{
+    margin:20px;
+    border-radius:20px;
+}
+
+
+
+
+
+/* Mailing List */
+
+#mailing-list .container{
+    padding:20px;
+}
+
+#mailing-list .box{
+    padding:10px;
+}
+
+
+#mailing-list h1{
+    color:#210D00;
+    font-family: 'Fraunces', serif;
+    float:left;
+    font-size:20px;
+}
+
+#mailing-list form{
+    margin: 25px;
+}
+
+#mailing-list input[type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+#mailing-list{
+    border:#4C8064 3px solid;
+    background-color:#FF8668;
+}
+
+
+
+/* Features */
+#features .box{
+    margin-top:20px;
+    width:30%;
+    padding:10px;
+    text-align:center;
+}
+
+#features .box img{
+    width: 100px;
+    border-radius: 20px;
+}
+
+#features h3{
+    color:#210D00;
+    font-family: 'Fraunces', serif;
+}
+
+
+footer{
+    padding:20px;
+    margin-top: 20px;
+    background-color:#4C8064;
+    text-align: center;
+    bottom:0;
+    width:100%;
+}
+
+
+/* Schedule */
+
+
+table, th, td {
+    border:2px solid #4C8064;
+    border-collapse:collapse;
+    font-family: 'Fraunces', serif;    
+}
+
+td, th{
+    text-align:center;
+    padding:20px;
+}
+
+#schedule h1{
+    font-size:30px;
+    font-family: 'Fraunces', serif;
+}
+
+#schedule {
+    padding:150px;
+}
+
+.days {
+    background-color: #FF8668;
+}
+
+
